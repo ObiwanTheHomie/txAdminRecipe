@@ -83,7 +83,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/rpemotes
     ref: master
-    src: https://github.com/TayMcKenzieNZ/rpemotes
+    src: https://github.com/McKleans-Scripts/rpemotes
 
   - action: download_github
     dest: ./resources/[standalone]/PolyZone
@@ -161,11 +161,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-scoreboard
 
   - action: download_github
-    dest: ./resources/[qb]/qb-adminmenu
-    ref: main
-    src: https://github.com/qbcore-framework/qb-adminmenu
-
-  - action: download_github
     dest: ./resources/[qb]/qb-multicharacter
     ref: main
     src: https://github.com/marcostom32/qb-multicharacter
@@ -179,11 +174,6 @@ tasks:
     dest: ./resources/[qb]/qb-vehicleshop
     ref: main
     src: https://github.com/qbcore-framework/qb-vehicleshop
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-houserobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-houserobbery
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -218,11 +208,6 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-ambulancejob
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-vehiclefailure
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclefailure
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -231,7 +216,7 @@ tasks:
     ref: main
     src: https://github.com/djjackYT/qb-radialmenu-npstyle
 
-  - action: download_github
+  - action: download_github # honestly pretty useless
     dest: ./resources/[qb]/qb-crypto
     ref: main
     src: https://github.com/qbcore-framework/qb-crypto
@@ -256,12 +241,12 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-vehiclekeys
 
-  - action: download_github
+  - action: download_github # honestly pretty useless, use jim-mech instead
     dest: ./resources/[qb]/qb-mechanicjob
     ref: main
     src: https://github.com/qbcore-framework/qb-mechanicjob
 
-  - action: download_github
+  - action: download_github # honestly pretty useless
     dest: ./resources/[qb]/qb-vineyard
     ref: main
     src: https://github.com/qbcore-framework/qb-vineyard
@@ -278,11 +263,6 @@ tasks:
     dest: ./resources/[qb]/qb-scrapyard
     ref: main
     src: https://github.com/qbcore-framework/qb-scrapyard
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-tunerchip
-    ref: main
-    src: https://github.com/qbcore-framework/qb-tunerchip
 
   - action: download_github
     dest: ./resources/[qb]/qb-towjob
@@ -305,26 +285,11 @@ tasks:
     src: https://github.com/qbcore-framework/qb-spawn
 
   - action: download_github
-    dest: ./resources/[qb]/qb-skillbar
-    ref: main
-    src: https://github.com/qbcore-framework/qb-skillbar
-
-  - action: download_github
     dest: ./resources/[qb]/qb-smallresources
     ref: main
     src: https://github.com/qbcore-framework/qb-smallresources
 
-  - action: download_github
-    dest: ./resources/[qb]/qb-recyclejob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-recyclejob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-diving
-    ref: main
-    src: https://github.com/qbcore-framework/qb-diving
-
-  - action: download_github
+  - action: download_github # recommend purchasing mk-courthouse, more optamised and does more
     dest: ./resources/[qb]/qb-cityhall
     ref: main
     src: https://github.com/qbcore-framework/qb-cityhall
@@ -373,19 +338,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-keyminigame
 
   - action: download_github
-    dest: ./resources/[qb]/qb-fitbit
-    ref: main
-    src: https://github.com/qbcore-framework/qb-fitbit
-
-  - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
     ref: main
     src: https://github.com/qbcore-framework/qb-garbagejob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-drugs
-    ref: main
-    src: https://github.com/qbcore-framework/qb-drugs
 
   - action: download_github
     dest: ./resources/[qb]/qb-lockpick
@@ -397,18 +352,12 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-interior
 
-  - action: download_github
-    dest: ./resources/[scripts]/[jixels]/qb-menu
-    ref: main
-    src: https://github.com/jimathy/jixel-menu
+  
 
   - action: waste_time # prevent github throttling
     seconds: 10
 
-  - action: download_github
-    dest: ./resources/[scripts]/[jixels]/qb-menu
-    ref: main
-    src: https://github.com/jimathy/qb-input
+  
   # Scripts
 
   - action: download_github
@@ -423,12 +372,13 @@ tasks:
     ref: main
     src: https://github.com/Redline-Studios/rs-prison
 
-  - action: download_github
-    dest: ./resources/[scripts]/[redline-studios]/rs-prison
-    ref: main
-    src: https://github.com/Redline-Studios/rs-prison
 
   # Project Sloth
+
+  - action: download_github
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-adminmenu
+    ref: main
+    src: https://github.com/Project-Sloth/ps-adminmenu
 
   - action: download_github
     dest: ./resources/[scripts]/[Project-Sloth]/ps-hud
@@ -559,6 +509,26 @@ tasks:
     seconds: 10
 
   # Jixels Scripts
+
+  - action: download_github
+    dest: ./resources/[scripts]/[jixels-extra]/jim_bridge
+    ref: main
+    src: https://github.com/jimathy/jim_bridge
+
+  - action: download_github
+    dest: ./resources/[scripts]/[jixels-extra]/jim-consumables
+    ref: main
+    src: https://github.com/jimathy/jim-consumables
+
+  - action: download_github
+    dest: ./resources/[scripts]/[jixels]/qb-input
+    ref: main
+    src: https://github.com/jimathy/qb-input
+
+  - action: download_github
+    dest: ./resources/[scripts]/[jixels]/qb-menu
+    ref: main
+    src: https://github.com/jimathy/jixel-menu
   
   - action: download_github
     dest: ./resources/[scripts]/[jixels]/jim-recycle
@@ -601,14 +571,10 @@ tasks:
     src: https://github.com/jimathy/jim-notepad
 
   - action: download_github
-    dest: ./resources/[scripts]/[jixels]/jim-ElectricSkateboard
+    dest: ./resources/[scripts]/[jixels]/jim-skateboard
     ref: main
-    src: https://github.com/jimathy/ElectricSkateboard
+    src: https://github.com/jimathy/jim-skateboard
 
-  - action: download_github
-    dest: ./resources/[scripts]/[Aa-StartFirst]/jim-consumables
-    ref: main
-    src: https://github.com/jimathy/jim-consumables
 
   # McKleans Scripts
 
@@ -616,6 +582,24 @@ tasks:
     dest: ./resources/[scripts]/[McKleans-Scripts]/mk-ammoboxes
     ref: main
     src: https://github.com/McKleans-Scripts/mk-ammoboxes
+
+  # Dom/Bostra Scripts
+
+  - action: download_github
+    dest: ./resources/[scripts]/[mustachedom]/md-drugs
+    ref: main
+    src: https://github.com/Mustachedom/md-drugs
+
+  - action: download_github
+    dest: ./resources/[scripts]/[mustachedom]/md-houserobberies
+    ref: main
+    src: https://github.com/Mustachedom/md-houserobberies
+
+  - action: download_github
+    dest: ./resources/[scripts]/[mustachedom]/md-fishing
+    ref: main
+    src: https://github.com/Mustachedom/md-fishing
+
 
   # Illenium Scripts
 
@@ -673,11 +657,6 @@ tasks:
     dest: ./resources/[scripts]/[randol]/randol_paycheck
     ref: main
     src: https://github.com/Randolio/randol_paycheck
-
-
-
-
-
 
 
   - action: waste_time # prevent github throttling
