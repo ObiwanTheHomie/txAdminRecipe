@@ -1,8 +1,8 @@
 $engine: 3
 $onesync: on
-name: QBCore Server by McKleans-Scripts
+name: QBCore Server by ObiwanTheHomie
 version: 2.2.4
-author: McKleans-Scripts
+author: ObiwanTheHomie
 description: An advanced FiveM RP framework including jobs, gangs, housing & more!
 
 tasks:
@@ -92,12 +92,12 @@ tasks:
 
   - action: download_github
     dest: ./resources/[standalone]/cdn-fuel
-    ref: master
+    ref: main
     src: https://github.com/CodineDev/cdn-fuel
 
   - action: download_github
     dest: ./resources/[standalone]/zdiscord
-    ref: master
+    ref: main
     src: https://github.com/zfbx/zdiscord
 
   - action: waste_time # prevent github throttling
@@ -141,7 +141,7 @@ tasks:
   
   - action: download_github
     dest: ./resources/[ox]/ox_lib
-    ref: main
+    ref: master
     src: https://github.com/overextended/ox_lib
 
   - action: download_github
@@ -386,29 +386,29 @@ tasks:
     src: https://github.com/Project-Sloth/ps-hud
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-housing
-      ref: main
-      src: https://github.com/Project-Sloth/ps-housing
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-housing
+    ref: main
+    src: https://github.com/Project-Sloth/ps-housing
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-realtor
-      ref: main
-      src: https://github.com/Project-Sloth/ps-realtor
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-realtor
+    ref: main
+    src: https://github.com/Project-Sloth/ps-realtor
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-mdt
-      ref: main
-      src: https://github.com/Project-Sloth/ps-mdt
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-mdt
+    ref: main
+    src: https://github.com/Project-Sloth/ps-mdt
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-dispatch
-      ref: main
-      src: https://github.com/Project-Sloth/ps-dispatch
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-dispatch
+    ref: main
+    src: https://github.com/Project-Sloth/ps-dispatch
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-inventory
-      ref: main
-      src: https://github.com/Project-Sloth/ps-inventory
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-inventory
+    ref: main
+    src: https://github.com/Project-Sloth/ps-inventory
 
   - action: download_github
     dest: ./resources/[scripts]/[Project-Sloth]/ps-buffs
@@ -416,32 +416,32 @@ tasks:
     src: https://github.com/Project-Sloth/ps-buffs
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-ui
-      ref: main
-      src: https://github.com/Project-Sloth/ps-ui
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-ui
+    ref: main
+    src: https://github.com/Project-Sloth/ps-ui
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-fuel
-      ref: main
-      src: https://github.com/Project-Sloth/ps-fuel
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-fuel
+    ref: main
+    src: https://github.com/Project-Sloth/ps-fuel
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-camera
-      ref: main
-      src: https://github.com/Project-Sloth/ps-camera
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-camera
+    ref: main
+    src: https://github.com/Project-Sloth/ps-camera
 
   - action: waste_time # prevent github throttling
     seconds: 10
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-weedplanting
-      ref: main
-      src: https://github.com/Project-Sloth/ps-weedplanting
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-weedplanting
+    ref: main
+    src: https://github.com/Project-Sloth/ps-weedplanting
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-multijob
-      ref: main
-      src: https://github.com/Project-Sloth/ps-multijob
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-multijob
+    ref: main
+    src: https://github.com/Project-Sloth/ps-multijob
 
   - action: download_github
     dest: ./resources/[scripts]/[Project-Sloth]/ps-liveries
@@ -449,29 +449,29 @@ tasks:
     src: https://github.com/Project-Sloth/ps-liveries
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-props
-      ref: main
-      src: https://github.com/Project-Sloth/ps-props
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-props
+    ref: main
+    src: https://github.com/Project-Sloth/ps-props
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-bling
-      ref: main
-      src: https://github.com/Project-Sloth/ps-bling
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-bling
+    ref: main
+    src: https://github.com/Project-Sloth/ps-bling
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-walkingstyle
-      ref: main
-      src: https://github.com/Project-Sloth/ps-walkingstyle
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-walkingstyle
+    ref: main
+    src: https://github.com/Project-Sloth/ps-walkingstyle
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-signrobbery
-      ref: main
-      src: https://github.com/Project-Sloth/ps-signrobbery
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-signrobbery
+    ref: main
+    src: https://github.com/Project-Sloth/ps-signrobbery
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-microphone
-      ref: main
-      src: https://github.com/Project-Sloth/ps-microphone
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-microphone
+    ref: main
+    src: https://github.com/Project-Sloth/ps-microphone
 
   - action: download_github
     dest: ./resources/[scripts]/[Project-Sloth]/ps-donator
@@ -479,9 +479,9 @@ tasks:
     src: https://github.com/Project-Sloth/ps-donator
 
   - action: download_github
-      dest: ./resources/[scripts]/[Project-Sloth]/ps-loading
-      ref: main
-      src: https://github.com/Project-Sloth/ps-loading
+    dest: ./resources/[scripts]/[Project-Sloth]/ps-loading
+    ref: main
+    src: https://github.com/Project-Sloth/ps-loading
 
   # Renewed Scripts
   
@@ -572,7 +572,7 @@ tasks:
 
   - action: download_github
     dest: ./resources/[scripts]/[jixels]/jim-skateboard
-    ref: main
+    ref: master
     src: https://github.com/jimathy/jim-skateboard
 
 
@@ -637,7 +637,7 @@ tasks:
 
   - action: download_github
     dest: ./resources/[scripts]/[keep]/keep-containers
-    ref: main
+    ref: master
     src: https://github.com/swkeep/keep-containers
 
   - action: download_github
@@ -660,7 +660,7 @@ tasks:
 
 
   - action: waste_time # prevent github throttling
-      seconds: 10
+    seconds: 10
     
 
 
